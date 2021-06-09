@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <h1>Free the Chaos!</h1>
+
+    <div class="music-container">
+        <div class="music-info">
+            <h4 id="title">
+                Fireflies Owl City
+            </h4>
+            <div class="progress-container">
+                <div class="progress">
+
+                </div>
+            </div>
+        </div>
+        <audio src="music/Bluesy Wednesday.mp3" id="audio"></audio>
+        <div class="img-container">
+            <img src="images/Bluesy Wednesday.jpg" alt="music-cover" id="cover">
+        </div>
+        <div class="navigation">
+            <button id="prev" class="action-btn">
+               <img width = "20px" height="20px" src="images/iconmonstr-previous-thin-240.png" alt="">
+
+            </button>
+            <button id="play" class="action-btn action-btn-big">
+                <img class="change-btn" width="30px" height="30px " src="images/iconmonstr-play-thin-240.png" alt="">
+            </button>
+            <button id="next" class="action-btn">
+                <img width ="20px" height="20px" src="images/iconmonstr-next-thin-240.png" alt="">
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
